@@ -20,7 +20,7 @@ Características
 Requirementos
 ----
 
-Banco de Dados PostgreSql + PHP 5.3 + extensões habilitadas DOM, XSL, GD, MBSTRING, XML.
+Banco de Dados PostgreSql ou outro qualquer (irá ser preciso configurar o arquivo database) + Composer + Laravel 4 + PHP 5.3 ou superior + extensões habilitadas DOM, XSL, GD, MBSTRING, XML.
 
 
 Maneira de usar
