@@ -1,4 +1,4 @@
 <?php
 
-Route::controller('users', 'UsersController');
+Route::get('/', 'HomeController@login');
 

@@ -26,7 +26,7 @@ return array(
 	|
 	*/
 
-	'default' => 'mysql',
+	'default' => 'pgsql',
 
 	/*
 	|--------------------------------------------------------------------------
@@ -54,9 +54,9 @@ return array(
 
 		'mysql' => array(
 			'driver'    => 'mysql',
-			'host'      => '127.0.0.1',
-			'database'  => 'laravel-auth',
-			'username'  => 'root',
+			'host'      => 'localhost',
+			'database'  => 'forge',
+			'username'  => 'forge',
 			'password'  => '',
 			'charset'   => 'utf8',
 			'collation' => 'utf8_unicode_ci',
@@ -66,9 +66,9 @@ return array(
 		'pgsql' => array(
 			'driver'   => 'pgsql',
 			'host'     => 'localhost',
-			'database' => 'database',
-			'username' => 'root',
-			'password' => '',
+			'database' => 'proesc',
+			'username' => 'proesc',
+			'password' => '123456',
 			'charset'  => 'utf8',
 			'prefix'   => '',
 			'schema'   => 'public',
@@ -92,7 +92,7 @@ return array(
 	|
 	| This table keeps track of all the migrations that have already run for
 	| your application. Using this information, we can determine which of
-	| the migrations on disk have not actually be run in the databases.
+	| the migrations on disk haven't actually been run in the database.
 	|
 	*/
 
@@ -111,7 +111,7 @@ return array(
 
 	'redis' => array(
 
-		'cluster' => true,
+		'cluster' => false,
 
 		'default' => array(
 			'host'     => '127.0.0.1',
