@@ -1,6 +1,6 @@
 <?php
 
-class IndexController extends BaseController {
+class LoginController extends BaseController {
 
 	/*
 	|--------------------------------------------------------------------------
@@ -15,9 +15,9 @@ class IndexController extends BaseController {
 	|
 	*/
 
-	public function index()
+	public function login()
 	{
-		return View::make('layouts.index');
+		return View::make('layouts.login');
 	}
 
 }

@@ -1,4 +1,4 @@
 <?php
 
-Route::get('/', 'IndexController@index');
+Route::get('/', 'LoginController@login');
 
