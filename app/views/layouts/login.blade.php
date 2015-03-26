@@ -25,7 +25,6 @@
 				<b>SIGIMOB</b>
 				</div><!-- /.login-logo -->
 				<div class="login-box-body">
-					<form action="../../index2.html" method="post">
 						<div class="form-group has-feedback">
 							<input type="text" class="form-control" placeholder="Email"/>
 							<span class="glyphicon glyphicon-envelope form-control-feedback"></span>
@@ -43,10 +42,11 @@
 								</div>
 								</div><!-- /.col -->
 								<div class="col-xs-4">
-									<button type="submit" class="btn btn-primary btn-block btn-flat">Entrar</button>
+									<a href="{{action('IndexController@index')}}">
+										<button type="submit" class="btn btn-primary btn-block btn-flat">Entrar</button>
+									</a>
 									</div><!-- /.col -->
 								</div>
-							</form>
 							</div><!-- /.login-box-body -->
 							</div><!-- /.login-box -->
 							<!-- jQuery 2.1.3 -->
