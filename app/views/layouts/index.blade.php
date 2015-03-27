@@ -79,13 +79,13 @@
             <li class="treeview">
               <a href="#">
                 <i class="fa fa-home"></i>
-                <span>Cadastro de Imoveis</span>
+                <span>Imoveis</span>
               </a>
             </li>
             <li class="treeview">
               <a href="#">
                 <i class="fa fa-users"></i>
-                <span>Cadastro de Usuarios</span>
+                <span>Usuários</span>
               </a>
             </li>
           </ul>
