@@ -1,7 +1,7 @@
 <?php
 
 
-class user extends Eloquent
+class User extends Eloquent
 {
 	public function set_password($string)
 	{
