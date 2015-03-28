@@ -4,6 +4,8 @@ Route::get('/', 'LoginController@login');
 
 Route::get('/index', 'IndexController@index');
 
+Route::get('/localizar', 'LocalizarController@localizar');
+
 Route::get('/cadastrar', function(){
 	$user = new User;
 
