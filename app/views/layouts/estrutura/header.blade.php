@@ -7,8 +7,7 @@
 <!-- Font Awesome Icons -->
 {{ HTML::style('font-awesome-4.3.0/css/font-awesome.min.css') }}
 <!-- Ionicons -->    
-{{ HTML::style('') }}
-<link href="http://code.ionicframework.com/ionicons/2.0.0/css/ionicons.min.css" rel="stylesheet" type="text/css" />
+{{ HTML::style('css/ionicons.min.css') }}
 <!-- Morris chart -->
 {{ HTML::style('plugins/morris/morris.css') }}
 <!-- jvectormap -->    

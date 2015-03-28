@@ -1,6 +1,6 @@
 <header class="main-header">
   <!-- Logo -->
-  <a href="http://sistemasguarani.esy.es" class="logo"><b>SIGIMOB</b></a>
+  <span class="logo"><b>SIGIMOB</b></span>
   <!-- Header Navbar: style can be found in header.less -->
   <nav class="navbar navbar-static-top" role="navigation">
     <!-- Sidebar toggle button-->
