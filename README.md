@@ -2,8 +2,7 @@
 
 Sigimob - Sistema Gerenciador de Imobiliárias
 =========
-
-É possível cadastrar todos os seus imóveis de maneira prática e rápida, onde é possui inserir toda a descrição do imóvel.  
+O sistema possui um gerenciador de usuários que permite liberar permissões para usuários utilizarem a parte administrativa do sistema, onde é possível cadastrar todos os seus imóveis de maneira prática e rápida, onde é possuível inserir toda a descrição do imóvel para futuras visualizações.  
 Possui uma interface nova e amigável.  
 ![alt tag](https://github.com/SistemasGuarani/sigimob/blob/master/public/imagens/telas-sistema/login.png)
 
