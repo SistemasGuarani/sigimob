@@ -1,148 +1,16 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="UTF-8">
-    <title>Sigimob</title>
-    <meta content='width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no' name='viewport'>
-    <!-- Bootstrap 3.3.2 -->
-    {{ HTML::style('bootstrap/css/bootstrap.min.css') }}
-    <!-- Font Awesome Icons -->
-    {{ HTML::style('font-awesome-4.3.0/css/font-awesome.min.css') }}
-    <!-- Ionicons -->    
-    {{ HTML::style('') }}
-    <link href="http://code.ionicframework.com/ionicons/2.0.0/css/ionicons.min.css" rel="stylesheet" type="text/css" />
-    <!-- Morris chart -->
-    {{ HTML::style('plugins/morris/morris.css') }}
-    <!-- jvectormap -->    
-    {{ HTML::style('plugins/jvectormap/jquery-jvectormap-1.2.2.css') }}
-    <!-- Daterange picker -->
-    {{ HTML::style('plugins/daterangepicker/daterangepicker-bs3.css') }}
-    <!-- Theme style -->
-    {{ HTML::style('dist/css/AdminLTE.min.css') }}
-    <!-- AdminLTE Skins. Choose a skin from the css/skins 
-         folder instead of downloading all of them to reduce the load. -->
-    {{ HTML::style('dist/css/skins/_all-skins.min.css') }}
-
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
-    <![endif]-->
-  </head>
+  <!-- Parcial de Header da estrutura -->
+  @include('layouts.estrutura.header')
   <body class="skin-blue">
     <div class="wrapper">
-      
-      <header class="main-header">
-        <!-- Logo -->
-        <a href="http://sistemasguarani.esy.es" class="logo"><b>SIGIMOB</b></a>
-        <!-- Header Navbar: style can be found in header.less -->
-        <nav class="navbar navbar-static-top" role="navigation">
-          <!-- Sidebar toggle button-->
-          <a href="#" class="sidebar-toggle" data-toggle="offcanvas" role="button">
-            <span class="sr-only">Toggle navigation</span>
-          </a>
-          <!-- Navbar Right Menu -->
-          <div class="navbar-custom-menu">
-            <ul class="nav navbar-nav">
-              <!-- User Account: style can be found in dropdown.less -->
-              <li class="dropdown user user-menu">
-                <div class="pull-right">
-                  <a href="{{action('LoginController@login')}}" class="btn btn-default btn-flat">Sair</a>
-                </div>                
-              </li>
-            </ul>
-          </div>
-        </nav>
-      </header>
-      <!-- Left side column. contains the logo and sidebar -->
-      <aside class="main-sidebar">
-        <!-- sidebar: style can be found in sidebar.less -->
-        <section class="sidebar">
-          <!-- Sidebar user panel -->
-          <div class="user-panel">
-            <div class="pull-left image">
-              <img src="dist/img/user2-160x160.jpg" class="img-circle" alt="User Image" />
-            </div>
-            <div class="pull-left info">
-              <p>Alexander Pierce</p>
-            </div>
-          </div>
-          <!-- sidebar menu: : style can be found in sidebar.less -->
-          <ul class="sidebar-menu">
-            <li class="header">MENU DE NAVEGAÇÃO</li>
-            <li class="active treeview">
-              <a href="#">
-                <i class="fa fa-dashboard"></i> <span>Inicio</span>
-              </a>
-            </li>
-            <li class="treeview">
-              <a href="#">
-                <i class="fa fa-home"></i>
-                <span>Imoveis</span>
-              </a>
-            </li>
-            <li class="treeview">
-              <a href="#">
-                <i class="fa fa-users"></i>
-                <span>Usuários</span>
-              </a>
-            </li>
-          </ul>
-        </section>
-        <!-- /.sidebar -->
-      </aside>
+      <!-- Parcial do Menu Superior da Aplicaçao -->
+      @include('layouts.estrutura.menu-superior')
+      <!-- Parcial de Menu Lateral -->
+      @include('layouts.estrutura.menu-lateral')
 
       <!-- Content Wrapper. Contains page content -->
-      <div class="content-wrapper">
-        <!-- Content Header (Page header) -->
-        <section class="content-header">
-          <h1>
-            Dashboard
-          </h1>
-          <ol class="breadcrumb">
-            <li><a href="#"><i class="fa fa-dashboard"></i> Home</a></li>
-            <li class="active">Dashboard</li>
-          </ol>
-        </section>
-
-        <!-- Main content -->
-        <section class="content">
-
-          <div class="row">
-            <div class="col-md-12">
-              <div class="box">
-                <div class="box-header with-border">
-                  <h3 class="box-title">Monthly Recap Report</h3>
-                  <div class="box-tools pull-right">
-                    <button class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-minus"></i></button>
-                    <button class="btn btn-box-tool" data-widget="remove"><i class="fa fa-times"></i></button>
-                  </div>
-                </div><!-- /.box-header -->
-                
-                <div class="box-footer">
-                  <div class="row">
-                    <div class="col-sm-3 col-xs-6">
-                      sdsadadsads
-                    </div>
-                  </div><!-- /.row -->
-                </div><!-- /.box-footer -->
-              </div><!-- /.box -->
-            </div><!-- /.col -->
-          </div><!-- /.row -->
-
-          <!-- Main row -->
-          <div class="row">
-            <!-- Left col -->
-            <div class="col-md-8">
-              
-            </div><!-- /.col -->
-
-            
-          
-          
-        </section><!-- /.content -->
-      </div><!-- /.content-wrapper -->
+      @include('layouts.estrutura.conteudo')
 
       @include('layouts.estrutura.rodape')
 
