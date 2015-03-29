@@ -184,6 +184,7 @@ h2.subtitle {
 #footer {
 	background: #fd680e;
 	padding: 20px 0 5px;
+  position: fixed;
 }
 
 p.copyright {
