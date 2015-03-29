@@ -112,9 +112,7 @@ a.navbar-brand:hover {
 
 /* Header */
 
-#header {	
-	background-color: #444;
-	background: url(../imagens/main-bg.jpg) no-repeat center top;
+#header {
 	margin-top: -20px;
 	padding-top: 150px;
 	background-attachment: relative;
@@ -185,6 +183,7 @@ h2.subtitle {
 	background: #fd680e;
 	padding: 20px 0 5px;
   position: fixed;
+  width: 100%;
 }
 
 p.copyright {
