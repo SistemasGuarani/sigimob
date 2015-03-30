@@ -1,4 +1,4 @@
-![alt tag](https://github.com/renankabal/cadastro-imobiliario/blob/master/images/telas-do-sistema/logo.png)
+![alt tag](https://github.com/SistemasGuarani/sigimob/raw/master/public/imagens/telas-sistema/logo.png)
 
 Sigimob - Sistema Gerenciador de Imobiliárias
 =========
