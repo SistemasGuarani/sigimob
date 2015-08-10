@@ -33,7 +33,7 @@ O sistema é dividido em 02 (duas) partes:
 
 Version 1.0
 ----
-Demo http://sistemasguarani.esy.es/sigimob/ - OBS: a versão básica feita anteriormente de maneira procedural
+Demo http://renanjhonatha.esy.es/sigimob/ - OBS: a versão básica feita anteriormente de maneira procedural
 
 Muitas das imagens do sistema foram baixadas e editadas do site ![alt tag](https://github.com/SistemasGuarani/sigimob/raw/master/public/imagens/telas-sistema/freepik.png)
 
